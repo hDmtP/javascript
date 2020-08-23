@@ -6,7 +6,7 @@ console.log([1,456,85,36,79]);
 console.log({Dhara: 'chu**ye', marks:11});
 console.table({Dhara: 'chu**ye', marks:11});
 console.warn('Tune exam me fail kya hai');
-// console.clear();
 console.assert('you don\'t deserve this marks');
 console.error("92>11, 'you don\'t deserve this marks'");
 console.timeEnd('your code took');
+console.clear();
