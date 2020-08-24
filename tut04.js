@@ -48,6 +48,6 @@ console.log("my Datatype is "+ (typeof date));
 
 
 
-
+console.clear();
 
 console.timeEnd();
