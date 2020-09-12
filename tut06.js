@@ -25,3 +25,4 @@ let myHtml = `Hello ${name}
 
 document.body.innerHTML = myHtml;
 console.timeEnd('your code took');
+console.clear()
