@@ -45,4 +45,4 @@ switch (age) {
     default:
         console.log("Monu Darling");
         break;
-}
+}console.clear()
