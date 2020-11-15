@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor href Property</title>
+</head>
+<body>
+    <p>
+        <a id="myanchor" href="http://www.globaltimes.cn" target="_blank">Global Times</a>
+    </p>
+    <p>Click the button to change the value of the href attribute of the link above to "Gobar Times".</p>
+
+    <button onclick="myFunction()">Do Reverse Engineering</button>
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+    document.getElementById("myanchor").href="http://www.google.com/imgres?imgurl=https%3A%2F%2Fkj2bcdn.b-cdn.net%2Fmedia%2F13818%2Fcow-1.jpg&imgrefurl=https%3A%2F%2Fhindi.krishijagran.com%2Fothers%2Fhealth-benefits-of-cow-dung-read-more-information%2F&tbnid=pp4Q4qJmfsBr2M&vet=12ahUKEwjjx4j8_oTtAhXXEnIKHVw6CbwQMygKegUIARDAAQ..i&docid=NW9H1xlKFcd_NM&w=600&h=400&q=gobar&ved=2ahUKEwjjx4j8_oTtAhXXEnIKHVw6CbwQMygKegUIARDAAQ/";
+    document.getElementById("demo").innerHTML="Now see the reversed engineered version of Gobal Times :p";
+    }
+    </script>
+</body>
+</html>
